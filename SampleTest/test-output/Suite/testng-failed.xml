@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="single"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SampleTest.SampleTest.MyLogoTest">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="signIn" invocation-numbers="0"/>
+          <include name="printedDress"/>
+        </methods>
+      </class> <!-- SampleTest.SampleTest.MyLogoTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
