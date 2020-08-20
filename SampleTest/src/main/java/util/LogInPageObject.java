@@ -140,10 +140,12 @@ try {
 			Actions actions = new Actions(driver);
 			
 			actions.moveToElement(element).perform();
-			Thread.sleep(6000);
+			Thread.sleep(4000);
 			
-			element.click();
+			js.executeScript("arguments[0].click();",element);
 			
+			
+			//element.click();
 			
 			}catch(Exception Dresses) {
 				
