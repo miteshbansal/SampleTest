@@ -117,7 +117,7 @@ try {
 			driver.findElement(By.xpath(registerPageEmailXpath)).sendKeys(username);
 			driver.findElement(By.xpath(passwordXpath)).sendKeys(password);
 			driver.findElement(By.xpath(btnSignInXpath)).click();
-			
+			driver.getTitle();
 			
 		}catch(Exception alreadyRegisteredUserLogIn) {
 			
