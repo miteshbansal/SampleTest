@@ -145,7 +145,7 @@ public class MyLogoTest {
 		
 	}
 
-	//@AfterMethod(groups= {"single", "Multiple"})
+	@AfterMethod(groups= {"single", "Multiple"})
 	public void afterTest() {
 		
 		driver.close();

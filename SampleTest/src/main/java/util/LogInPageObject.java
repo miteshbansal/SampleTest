@@ -121,7 +121,7 @@ try {
 			
 		}catch(Exception alreadyRegisteredUserLogIn) {
 			
-			
+			alreadyRegisteredUserLogIn.printStackTrace();
 			
 		}
 		
