@@ -50,6 +50,7 @@ public class LogInPageObject {
 	public LogInPageObject(WebDriver driver) {
 		this.driver = driver;
 	}
+	
 
 	public void register(String username, String firstName, String lastname, String password, String company, String address, String addressLine2, String city, 
 			 String postalCode, String homePhone, String mobilePhone) {
@@ -117,7 +118,7 @@ try {
 			driver.findElement(By.xpath(registerPageEmailXpath)).sendKeys(username);
 			driver.findElement(By.xpath(passwordXpath)).sendKeys(password);
 			driver.findElement(By.xpath(btnSignInXpath)).click();
-			driver.getTitle();
+			
 			
 		}catch(Exception alreadyRegisteredUserLogIn) {
 			

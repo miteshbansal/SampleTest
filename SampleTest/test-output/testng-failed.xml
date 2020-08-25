@@ -5,9 +5,7 @@
     <classes>
       <class name="SampleTest.SampleTest.MyLogoTest">
         <methods>
-          <include name="invokeBrowser"/>
-          <include name="signIn" invocation-numbers="0"/>
-          <include name="printedDress"/>
+          <include name="newMemberRegistration"/>
         </methods>
       </class> <!-- SampleTest.SampleTest.MyLogoTest -->
     </classes>

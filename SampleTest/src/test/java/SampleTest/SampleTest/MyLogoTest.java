@@ -72,7 +72,7 @@ public class MyLogoTest {
 		driver.get("http://automationpractice.com/index.php");
 	}
 	
-	//@Test(dataProvider="singleTestCaseMultipleTimes", groups= {"Multiple"})
+	@Test(dataProvider="singleTestCaseMultipleTimes", groups= {"Multiple"})
 	public void newMemberRegistration(Map<String, String> data) {
 		
 		try {
@@ -109,7 +109,7 @@ public class MyLogoTest {
 	}
 	
 	
-	@Test(dataProvider="readDataFromExcel", groups= {"single"}) 
+	//@Test(dataProvider="readDataFromExcel", groups= {"single"}) 
 	public void signIn(Map<String, String> data) {
 		
 		try {
@@ -127,7 +127,7 @@ public class MyLogoTest {
 		}
 		
 	}
-	@Test(groups= {"single"})
+	//@Test(groups= {"single"})
 	public void printedDress() {
 		
 		try {
